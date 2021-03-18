@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;    
+
+}
+
+header {
+    background: url(images/banner.png)  center;
+    position: relative;
+    justify-content: center;
+    min-height: 140px;
+    width: 100%;
+    background-size: 115%, contain;
+    background-color: #737373;
+    margin-bottom: 5px;
+}
+
+.light-panel {
+    background-color: #e2e2e2;
+    color: #292929; 
+    border-radius: 20px 20px 20px 20px;
+    padding:2px;
+    margin: 10px;
+}
+
+.dark-panel {
+    background-color: #292929;
+    color: #e2e2e2; 
+    border-radius: 20px 20px 20px 20px;
+    padding:  2px;
+    margin: 10px;
+}
+
+.item p , .item-double p{
+    text-indent: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul  {
+    padding-left: 0;
+  }
+ul li {
+     list-style-position: inside;
+  }
+
+.item h2, .item-double h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+article h3 {
+    color: rgb(131, 225, 228);
+    
+}
+
+article p, article a {
+    margin-left: 15px;
+}
+.item-double {
+text-indent: 25px;
+flex: 2;
+}
+
+.item {
+    flex: 1;
+}
+
+.services{
+    text-align: center;
+    align-items: center;
+}
+form {
+    text-align: center;
+}
+form br {
+    padding-top: 10px;
+}
+
+.dark-panel a{
+    color: rgb(233, 127, 148);
+}
+
+footer h2 {
+    text-align: center;
+    margin-bottom: 3px;
+}
+footer img {
+    padding-left: 20px;
+    width: 25px;
+    float: left;
+}
+
+footer section, footer a {
+    padding-top: 2px;
+    margin-bottom: 5px;
+}
+
+
+@media all and (min-width: 600px) {
+
+.container {
+    flex-direction: row;
+}    
+
+header {
+    min-height: 200px;
+}
+}

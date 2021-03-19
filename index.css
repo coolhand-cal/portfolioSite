@@ -122,7 +122,11 @@ footer {
     text-align: center;
 }
 
+<<<<<<< HEAD
 article img {
+=======
+img {
+>>>>>>> 42bd644ee815f0c6dc905f24f84ae845f6573e0d
     max-width: 300px;
     padding-left: 40px;
 }

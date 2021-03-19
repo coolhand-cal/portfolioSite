@@ -21,6 +21,35 @@ header {
     margin-bottom: 5px;
 }
 
+header nav {
+    position: absolute;
+    bottom: -35px; 
+    left: 6%;
+}
+
+header nav a  {
+    width: 70px;
+    display: inline-block;
+    margin: 5% 2px;
+    padding: 10px 3px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #292929;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    background-color: #e2e2e2;
+    border-radius: 20px 20px 0px 0;
+
+}
+
+header nav a:hover{
+    color: crimson;
+}
+
 .light-panel {
     background-color: #e2e2e2;
     color: #292929; 
@@ -94,7 +123,7 @@ footer {
 }
 
 article img {
-    width: 300px;
+    max-width: 300px;
     padding-left: 40px;
 }
 

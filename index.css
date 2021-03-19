@@ -122,7 +122,6 @@ footer {
     text-align: center;
 }
 
-<
 img {
     max-width: 300px;
     padding-left: 40px;
@@ -146,8 +145,8 @@ footer section, footer a {
     flex-direction: row;
 }    
 
-img {
-    max-width: 400px;
+article img {
+    width: 400px;
     padding-left: 40px;
 }
 

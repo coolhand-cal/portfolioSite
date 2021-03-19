@@ -122,11 +122,8 @@ footer {
     text-align: center;
 }
 
-<<<<<<< HEAD
-article img {
-=======
+<
 img {
->>>>>>> 42bd644ee815f0c6dc905f24f84ae845f6573e0d
     max-width: 300px;
     padding-left: 40px;
 }
@@ -149,8 +146,8 @@ footer section, footer a {
     flex-direction: row;
 }    
 
-article img {
-    width: 400px;
+img {
+    max-width: 400px;
     padding-left: 40px;
 }
 

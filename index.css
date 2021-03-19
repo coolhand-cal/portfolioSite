@@ -8,6 +8,14 @@ body{
 
 }
 
+.leftSide {
+    flex: 5;
+}
+
+.rightSide {
+    flex: 3;
+}
+
 header {
     background: url(images/banner.png)  center;
     position: relative;
@@ -86,10 +94,11 @@ form br {
     color: rgb(233, 127, 148);
 }
 
-footer h2 {
+
+footer {
     text-align: center;
-    margin-bottom: 3px;
 }
+
 footer img {
     padding-left: 20px;
     width: 25px;

@@ -8,13 +8,7 @@ body{
 
 }
 
-.leftSide {
-    flex: 5;
-}
 
-.rightSide {
-    flex: 3;
-}
 
 header {
     background: url(images/banner.png)  center;
@@ -99,6 +93,11 @@ footer {
     text-align: center;
 }
 
+article img {
+    width: 300px;
+    padding-left: 40px;
+}
+
 footer img {
     padding-left: 20px;
     width: 25px;
@@ -117,7 +116,19 @@ footer section, footer a {
     flex-direction: row;
 }    
 
+article img {
+    width: 400px;
+    padding-left: 40px;
+}
+
 header {
     min-height: 200px;
+}
+.leftSide {
+    flex: 5;
+}
+
+.rightSide {
+    flex: 3;
 }
 }

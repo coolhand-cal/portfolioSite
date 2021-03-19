@@ -94,7 +94,7 @@ footer {
 }
 
 img {
-    width: 300px;
+    max-width: 300px;
     padding-left: 40px;
 }
 
